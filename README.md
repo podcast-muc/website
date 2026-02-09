@@ -57,8 +57,8 @@ Wir haben aber auch eigene Shortcodes.
 ### mediacccde
 
 Mit diesem Shortcode kann man Videos von [media.ccc.de](https://media.ccc.de/) in die Seite einbinden.
-Man braucht nur die URL des Videos und muss noch `/oembed` anhängen.
+Man braucht nur die URL der Videoseite einfügen, das /oembed wird inzwischen automatisch angehängt.
 
 ~~~
-{{< mediacccde "https://media.ccc.de/v/podcast-muc-4130-podcast-atti-tune-musik/oembed" >}}
+{{< mediacccde "https://media.ccc.de/v/podcast-muc-4130-podcast-atti-tune-musik" >}}
 ~~~
